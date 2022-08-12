@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51, 0.3),rgba(12,3,51, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 500;
+}
+.content h1:hover{
+    color: #AD8CEA;
+}
+.fondo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.sec2{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(12,3,51, 0.3),rgba(12,3,51, 0.3));
+    position: relative;
+    font-weight: normal;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: white;
+}
+.sec2 .fondo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-tittle{
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+.content2{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content2 .img{
+    position: relative;
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+}
+.content2 .img img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.content2 .text-box{
+    z-index: 222;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    padding: 40px;
+    max-width: 400px;
+    border: transparent;
+    border-radius: 25px;
+    transform: translate(-80px, 50px);
+}
+.content2 .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.sec3{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(12,3,51, 0.3),rgba(12,3,51, 0.3));
+    position: relative;
+    padding: 0;
+    font-weight: normal;
+}
+.container3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.container3 .card{
+    position: relative;
+    width: 280px;
+    height: 130px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(173, 140, 234, 0.47);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.container3 .card1{
+    position: relative;
+    width: 280px;
+    height: 130px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(80, 223, 178, 0.53);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.container3 .card4{
+    position: relative;
+    width: 280px;
+    height: 130px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(80, 223, 178, 0.53);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.container3 .card .info{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.container3 .card1 .info{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.container3 .card4 .info{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.container3 .card:hover .info{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container3 .card1:hover .info{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container3 .card4:hover .info{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container3 .card .info h2{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+}
+.container3 .card1 .info h2{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.16);
+}
+.container3 .card4 .info h2{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.16);
+}
+.container3 .card4 .info p{
+    font-size: 12px;
+}
+.main-tittle3{
+    font-size: 4em;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.sec3 .fondo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.sec4{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(12,3,51, 0.3),rgba(12,3,51, 0.3));
+    position: relative;
+    padding: 0;
+    font-weight: normal;
+}
+.sec4 .fondo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content4{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content4 .text-box4{
+    z-index: 222;
+    background: transparent;
+    max-width: 800px;
+    border: transparent;
+    border-radius: 25px;
+}
+.content4 .text-box4 p{
+    font-size: 20px;
+}
+.main-tittle4{
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+.pregunta{
+    font-size: 3em;
+    margin-top: 30px;
+}
+@media (min-aspect-ratio: 16/9){
+    .fondo{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media (max-aspect-ratio: 16/9){
+    .fondo{
+        width: auto;
+        height: 100%;
+    }
+    .content h1{
+         font-size: 80px;
+         color: #fff;
+         font-weight: 500;
+     }
+    .content2 .text-box{
+        transform: translate(-179px, 185px);
+    }
+    .content2 .img{
+        transform: translate(179px, -10px);
+    }
+    .main-tittle3{
+        font-size: 2em;
+    }
+    .main-tittle4{
+        font-size: 2.5em;
+    }
+    .content4 .text-box4{
+        max-width: 390px;
+    }
+    .pregunta{
+        font-size: 17px;
+    }
+}
+@media(max-width: 480px){
+    .container{
+        width: 57%;
+    }
+
+}
